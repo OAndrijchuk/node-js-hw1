@@ -28,15 +28,6 @@ async function invokeAction({ action, id, name, email, phone }) {
       console.warn("Ups! We have some trable!!!");
   }
 }
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "05olLMgyVQdWRwgKfg5J6" });
-// invokeAction({
-//   action: "add",
-//   name: "some_person",
-//   email: "some_person@mail.com",
-//   phone: "(333) 444-1234",
-// });
-// invokeAction({ action: "remove", id: "NhByw64A8rg6MkRs3CbRa" });
 
 program
   .option("-a, --action <type>", "choose action")
